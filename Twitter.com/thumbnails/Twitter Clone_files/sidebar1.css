@@ -1,0 +1,76 @@
+.sidebar-container
+{
+    position: fixed;
+    top: 0;
+    left: 100px;
+
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: rgb(229, 224, 224);
+
+    padding-right: 40px;
+    padding-top: 25px;
+}
+.twitter-icon
+{
+    height: 25px;
+    margin-bottom: 25px;
+
+}
+.sidebar-icon
+{
+    margin-bottom: 25px;
+    
+    font-size: 20px;
+    font-family: Roboto,Arial;
+    font-weight: 500;
+
+}
+.tweet
+{
+    width: 200px;
+    height: 50px;
+
+    border-radius: 25px;
+    border-style: solid;
+    border: none;
+
+    color: white;
+    background-color: rgb(79, 160, 235);
+
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 600;
+}
+.profile-name
+{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0;    
+     
+}
+.picture
+{
+    margin-top: 10px;
+    border-radius: 50px;
+    border: none;
+    width: 45px;
+    height: 45px;
+    background-color: cornflowerblue;
+    color: white;
+    
+    font-size: 22px;
+}
+.preview
+{
+    margin-left: 10px;
+    margin-top: 15px;
+
+    font-family: Arial;
+}
+.name
+{
+    font-weight: 700;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!-- saved from url=(0071)http://127.0.0.1:5500/web-development-projects/Twitter.com/twitter.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Twitter Clone</title>
+    
+    
+    
+    
+
+<link rel="stylesheet" href="./Twitter Clone_files/sidebar1.css"><link rel="stylesheet" href="./Twitter Clone_files/sidebar2.css"><link rel="stylesheet" href="./Twitter Clone_files/main.css"><link rel="stylesheet" href="./Twitter Clone_files/general.css"></head>
+<body class="body">
+    <div class="sidebar-container">
+        <div>
+            <img class="twitter-icon" src="./Twitter Clone_files/twitter-3.svg">
+        </div>
+        <div class="sidebar-icon">Home</div>
+        <div class="sidebar-icon">Explore</div>
+        <div class="sidebar-icon">Notifications</div>
+        <div class="sidebar-icon">Messages</div>
+        <div class="sidebar-icon">Lists</div>
+        <div class="sidebar-icon">Bookmarks</div>
+        <div class="sidebar-icon">Twitter Blue</div>
+        <div class="sidebar-icon">Profile</div>
+        <div class="sidebar-icon">More</div>
+        
+        <button class="tweet">Tweet</button>
+        
+        <div class="profile-name">
+            <button class="picture">B</button>
+            <div class="preview">
+                <div class="name">Bekzod Amonov</div>
+                <div class="nick">@b_amonov</div>
+            </div>
+        </div> 
+    </div>
+
+    <div class="main">
+            <div class="main-menu">
+                <div class="home">Home</div>
+                <div class="buttons-sidebar">
+                    <button class="button">For you</button>
+                    <button class="button">Following</button>
+                </div>
+            </div>    
+            <div class="main-tweet">
+                    <div class="my-picture"><button class="picture">B</button></div>
+                        <div class="main-preview">
+                            <div class="what-is-happening">
+                                <div class="tweet-status">What is happening?!</div>
+                                <div class="icons"></div>
+                                <div class="button-tweet-small"><button class="tweet-small">Tweet</button></div>
+                            </div>
+                        </div>
+            </div>
+            <div class="tweet-results">Show 58 Tweets</div>
+    </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>

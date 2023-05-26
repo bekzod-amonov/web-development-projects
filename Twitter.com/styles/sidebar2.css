@@ -1,0 +1,32 @@
+.search-bar-container
+{
+    position: fixed;
+    top: 0;
+    right: 93px;
+    width: 345px;
+}
+.search-bar
+{
+    width: 298px;
+    height: 45px;
+
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(238, 240, 241);
+    padding-left: 40px;
+
+    font-size: 16px;
+}
+.trends-for-you
+{
+    position: relative;
+    top: 0;
+    right: 0;
+
+    border-width: 1px;
+    border-style: solid;
+
+    display: inline-block;
+}
+
+

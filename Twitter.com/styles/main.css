@@ -1,0 +1,151 @@
+.main-menu
+{
+    display: grid;
+    position: fixed;
+    left: 355px;
+    top: 0;
+
+    border-color: rgb(223, 222, 222);
+    border-style: solid;
+    border-width: 1px;
+    
+    width: 600px;
+    padding-top: 20px;
+    
+    background-color: white;
+    z-index: 100;
+}
+.home
+{
+    font-weight: 600;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.buttons-sidebar
+{
+    
+    margin-top: 25px;
+
+    display: flex;
+    align-items: center;
+    
+    
+    justify-content: space-evenly;
+    
+}
+.button
+{
+    width: 300px;
+    height: 50px;
+
+    border: none;
+    
+    color: rgb(109, 109, 109);
+    background-color: white;
+
+    font-weight: 600;
+    font-size: 15px;
+}
+.button:hover
+{
+    background-color: rgb(236, 235, 235);
+}
+.main-tweet
+{
+    position: relative;
+    width: 590px;
+    height: 100px;
+
+    display: flex;
+
+    top: 110px;
+    left: 347px;
+    padding-left: 10px;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(223, 222, 222);
+}
+.what-is-happening
+{
+    margin-left: 16px;
+    margin-top: 20px;
+
+    font-size: 20px;
+}
+.button-tweet-small
+{
+   margin-top: 8px;
+   margin-left: 435px;
+}
+.tweet-small
+{
+    width: 80px;
+    height: 40px;
+
+    border-radius: 50px;
+    border: none;
+    
+    background-color: rgb(165, 212, 246);
+    color: white;
+
+    font-size: 15px;
+    font-weight: 600;
+}
+.tweet-status
+{
+    margin-top: 10px;
+}
+.tweet-results
+{
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(223, 222, 222);
+
+    display: flex;
+    width: 600px;
+    height: 50px;
+    flex: 0;
+
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    left: 347px;
+    top: 109px;
+
+    color: rgb(94, 157, 233);
+    font-size: 16px;
+}
+.tweet-ymikhin
+{
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(223, 222, 222);
+
+    position: relative;
+    top: 108px;
+    left: 347px;
+
+    display: flex;
+    width: 600px;
+    height: 620px;
+    justify-content: center;
+}
+.tweeter-photo
+{
+    margin-left: 10px;
+}
+.tweet-overview
+{
+    margin-left: 10px;
+    margin-top: 12px;
+}
+.span
+{
+    color: gray;
+}
+.tweet-photo
+{
+    width: 500px;
+    border-radius: 20px;
+}
